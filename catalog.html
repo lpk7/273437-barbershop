@@ -9,7 +9,7 @@
 			<div class="container">
 				<img src="img/logo.png" width="205" height="35" alt="">
 				<nav class="catalog-navigation">
-					<ul>
+					<ul class="navigation">
 						<li>
 							<a href="#">Информация</a>
 						</li>
@@ -32,19 +32,25 @@
   	  			</div>
 			</div>	  
   		</header>
-  		<main>
-  			<h1>Средства для ухода</h1>
+  		<main class="container">
+  			<h1 class="main-">Средства для ухода</h1>
   			<div class="breadcrumbs">
   				<ul>
-  					<li>Главная</li>
-  					<li>Магазин</li>
-  					<li>Средства для ухода</li>
+  					<li>
+  						<a href="#">Главная</a>
+  					</li>
+  					<li>
+  						<a href="#">Магазин</a>
+  					</li>
+  					<li>
+  						<a href="#">Средства для ухода</a>
+  					</li>
   				</ul>
   			</div>
   			<div class="catalog-filters">
+  				<form action="https://echo.htmlacademy.ru" method="post">
   				<div class="producers">
-  					<h2>Производители</h2>
-  					<form class="filters-checkbox" action="https://echo.htmlacademy.ru" method="post">
+  					<h2 class="producer">Производители</h2>
   					<label>
   						<input type="checkbox" name="BoC" checked>
   						Baxter of California
@@ -69,11 +75,9 @@
   						<input type="checkbox" name="Amcr" checked>
   						American crew
   					</label>
-  					</form>
   				</div>
   				<div class="group-items">
-  					<h2>Группы товаров</h2>
-  					<form class="filters-radio" action="https://echo.htmlacademy.ru" method="post">
+  					<h2 class="group-item">Группы товаров</h2>
   					<label>
   						<input type="radio" name="group-item" value="a1" checked>
   						Бритвенные принадлежности
@@ -86,47 +90,47 @@
   						<input type="radio" name="group-item" value="a3">
   						Аксессуары
   					</label>
-  					</form>
   				</div>
   				<button class="btn btn-filters" type="button">Показать</button>
+  				</form>
   			</div>
   			<div class="catalog-item">
-  				<article>
+  				<article class="item-1">
   					<img src="img/item-1.jpg" width="100" height="75" alt="">
   					<p>Набор для путешествий<br>
   					«Baxter of California»</p>
   					<b>2 900 руб.</b>
   					<a href="#" class="btn btn-buy">Купить</a>
   				</article>
-  				<article>
+  				<article class="item-2">
   					<img src="img/item-2.jpg" width="100" height="75" alt="">
   					<p>Увлажняющий кондиционер<br>
   					«Baxter of California»</p>
   					<b>750 руб.</b>
   					<a href="#" class="btn btn-buy">Купить</a>
   				</article>
-  				<article>
+  				<article class="item-3">
   					<img src="img/item-3.jpg" width="100" height="75" alt="">
   					<p>Гель для волос<br>
   					«SUAVECITO»</p>
   					<b>290 руб.</b>
   					<a href="#" class="btn btn-buy">Купить</a>
   				</article>
-  				<article>
+  				<article class="item-4">
   					<img src="img/item-4.jpg" width="100" height="75" alt="">
   					<p>Глина для укладки волос<br>
   					«American crew»</p>
   					<b>500 руб.</b>
   					<a href="#" class="btn btn-buy">Купить</a>
   				</article>
-  				<article>
+  				<article class="item-5">
   					<img src="img/item-5.jpg" width="100" height="75" alt="">
   					<p>Гель для волос<br>
   					«AMERICAN CREW»</p>
   					<b>300 руб.</b>
   					<a href="#" class="btn btn-buy">Купить</a>
   				</article>
-  				<article>
+  				<article class="item-6">
   					<img src="img/item-6.jpg" width="100" height="75" alt="">
   					<p>Набор для бритья<br>
   					«Baxter of California»</p>
